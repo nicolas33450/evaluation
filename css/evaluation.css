@@ -1,0 +1,25 @@
+body html{ 
+    font-family: 'Poppins', sans-serif; 
+    height: 100%;
+	margin: 0;
+    padding: 0;
+}
+.footer{
+   position: sticky;
+}
+.titre{
+    color: blue;
+    font-size: 8rem;
+    font-weight: bold;
+}
+.sous_titre{
+    color: darkorange;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.para1{
+    color: cornflowerblue;
+}
+.planning{
+    color: brown;
+}
