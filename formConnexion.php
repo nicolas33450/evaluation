@@ -12,7 +12,7 @@ if (isset($_POST['valider']))
     // On convertit le mot de passe
     $pass = hash('sha256', $mp);
 
-      
+
     // On exécute la requête (en passant les paramètres) et on récupère le
     // résultat (jeu d'enregistrement)
     $requete->execute(array(':nom'=>$nom, ':mp'=>$pass));
@@ -53,8 +53,8 @@ else
     
     <body>
     <?php
-       include 'menu.php' 
-       ?>
+        include 'menu.php' 
+        ?>
         <form action="formConnexion.php" method="post">
             <div class="container p-5">
                 <div class="row">
